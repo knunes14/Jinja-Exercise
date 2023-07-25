@@ -19,3 +19,4 @@ def show_story():
     text = story.generate(request.args)
     return render_template("story.html", text=text)
 
+
